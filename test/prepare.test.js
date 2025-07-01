@@ -91,7 +91,7 @@ test.serial('Create new changelog with title if specified', async (t) => {
   t.is((await readFile(changelogPath)).toString(), `${changelogTitle}\n\n${notes}\n`);
 });
 
-test('Create new changelog with template', async t => {
+test('Create new changelog with template', async (t) => {
   const cwd = tempy.directory();
   const notes = 'Test release note';
   const version = '1.2.3';
