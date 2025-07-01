@@ -5,8 +5,8 @@
 > [!WARNING]
 > Please consider whether committing release notes to a file is worth the [added complexity](https://semantic-release.gitbook.io/semantic-release/support/faq#should-release-notes-be-committed-to-a-changelog.md-in-my-repository-during-a-release) compared to other available options for capturing release notes.
 
-[![Build Status](https://github.com/semantic-release/changelog/workflows/Test/badge.svg)](https://github.com/semantic-release/changelog/actions?query=workflow%3ATest+branch%3Amaster) [![npm latest version](https://img.shields.io/npm/v/@semantic-release/changelog/latest.svg)](https://www.npmjs.com/package/@semantic-release/changelog)
-[![npm next version](https://img.shields.io/npm/v/@semantic-release/changelog/next.svg)](https://www.npmjs.com/package/@semantic-release/changelog)
+[![Build Status](https://github.com/boxcee/changelog/workflows/Test/badge.svg)](https://github.com/boxcee/changelog/actions?query=workflow%3ATest+branch%3Amaster) [![npm latest version](https://img.shields.io/npm/v/@boxcee/changelog/latest.svg)](https://www.npmjs.com/package/@boxcee/changelog)
+[![npm next version](https://img.shields.io/npm/v/@boxcee/changelog/next.svg)](https://www.npmjs.com/package/@boxcee/changelog)
 
 | Step               | Description                                                                                                                                                                                           |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -16,7 +16,7 @@
 ## Install
 
 ```bash
-$ npm install @semantic-release/changelog -D
+$ npm install @boxcee/changelog -D
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ The plugin can be configured in the [**semantic-release** configuration file](ht
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     [
-      "@semantic-release/changelog",
+      "@boxcee/changelog",
       {
         "changelogFile": "docs/CHANGELOG.md"
       }
@@ -57,14 +57,14 @@ With this example, for each release, a `docs/CHANGELOG.md` will be created or up
 
 ### Examples
 
-When used with the [@semantic-release/git](https://github.com/semantic-release/git) or [@semantic-release/npm](https://github.com/semantic-release/npm) plugins the `@semantic-release/changelog` plugin must be called before those plugins in order to update the changelog file so the [@semantic-release/git](https://github.com/semantic-release/git) and [@semantic-release/npm](https://github.com/semantic-release/npm) plugins can include it in the release.
+When used with the [@semantic-release/git](https://github.com/semantic-release/git) or [@semantic-release/npm](https://github.com/semantic-release/npm) plugins the `@boxcee/changelog` plugin must be called before those plugins in order to update the changelog file so the [@semantic-release/git](https://github.com/semantic-release/git) and [@semantic-release/npm](https://github.com/semantic-release/npm) plugins can include it in the release.
 
 ```json
 {
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
-    "@semantic-release/changelog",
+    "@boxcee/changelog",
     "@semantic-release/npm",
     "@semantic-release/git"
   ]
