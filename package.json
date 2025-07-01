@@ -1,5 +1,5 @@
 {
-  "name": "@semantic-release/changelog",
+  "name": "@boxcee/changelog",
   "description": "semantic-release plugin to create or update a changelog file",
   "version": "0.0.0-development",
   "author": "Pierre Vanduynslager (https://github.com/pvdlg)",
@@ -9,11 +9,12 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/semantic-release/changelog/issues"
+    "url": "https://github.com/boxcee/changelog/issues"
   },
   "contributors": [
     "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
-    "Gregor Martynus (https://twitter.com/gr2m)"
+    "Gregor Martynus (https://twitter.com/gr2m)",
+    "moritz Schmitz von Hülst <moritz@schmitzvonhuelst.de>"
   ],
   "dependencies": {
     "@semantic-release/error": "^3.0.0",
@@ -37,7 +38,7 @@
     "lib",
     "index.js"
   ],
-  "homepage": "https://github.com/semantic-release/changelog#readme",
+  "homepage": "https://github.com/boxcee/changelog#readme",
   "keywords": [
     "changelog",
     "conventional-changelog",
@@ -72,7 +73,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/semantic-release/changelog.git"
+    "url": "https://github.com/boxcee/changelog.git"
   },
   "scripts": {
     "lint": "xo",
