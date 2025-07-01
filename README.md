@@ -51,8 +51,8 @@ With this example, for each release, a `docs/CHANGELOG.md` will be created or up
 ### Options
 
 | Options          | Description                                           | Default        |
-| ---------------- | ----------------------------------------------------- | -------------- |
-| `changelogFile`  | File path of the changelog.                           | `CHANGELOG.md` |
+| ---------------- |-------------------------------------------------------| -------------- |
+| `changelogFile`  | File path of the changelog. Supports templating.      | `CHANGELOG.md` |
 | `changelogTitle` | Title of the changelog file (first line of the file). | -              |
 
 ### Examples
