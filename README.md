@@ -1,4 +1,4 @@
-# @semantic-release/changelog
+# @boxcee/changelog
 
 [**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to create or update a changelog file.
 
